@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('git cloned'){
             steps{
-                git url:'https://github.com/SupriyaSimha/banking_automation_project/, branch: "master"'
+                git url:'https://github.com/SupriyaSimha/banking_automation_project/', branch: "master"
               
             }
         }
